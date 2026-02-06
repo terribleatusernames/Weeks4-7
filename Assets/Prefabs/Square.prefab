@@ -119,6 +119,7 @@ MonoBehaviour:
   hovered: 0
   life: 3
   lifeCounter: {fileID: 7119943056426879894}
+  Text: {fileID: 4945697916905401463}
 --- !u!1 &4798826234654126327
 GameObject:
   m_ObjectHideFlags: 0

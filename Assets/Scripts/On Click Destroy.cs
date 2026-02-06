@@ -18,7 +18,7 @@ public class OnClickDestroy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+        Text.transform.position = transform.position;
         Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         worldMousePosition.z = 0;
         bool isHovered = spriteRenderer.bounds.Contains(worldMousePosition);
