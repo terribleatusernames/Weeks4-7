@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ public class Spawner : MonoBehaviour
     public float destroyTimer = 5f;
     public float pacerSpeed = Random.Range(1f, 5f);
     public Color pacerColour;
+  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,8 +39,9 @@ public class Spawner : MonoBehaviour
 
             Destroy(spawnedObject, destroyTimer);
         }
-        
-        
-
     }
+
+  
+
+    
 }
