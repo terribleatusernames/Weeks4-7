@@ -554,6 +554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  direction: 1
+  shouldMove: 0
 --- !u!114 &1280775527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,6 +569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  direction: 1
+  shouldMove: 0
 --- !u!136 &1280775528
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -881,6 +885,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577521385}
   m_CullTransparentMesh: 1
+--- !u!212 &1774107380 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6198492177782562881, guid: 9b7a40f9ef6b94c48aa4e9587d598153, type: 3}
+  m_PrefabInstance: {fileID: 2988700742389589118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2988700742389589118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -889,6 +898,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5920990439867410563, guid: 9b7a40f9ef6b94c48aa4e9587d598153, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1774107380}
     - target: {fileID: 437635281199402303, guid: 9b7a40f9ef6b94c48aa4e9587d598153, type: 3}
       propertyPath: m_Name
       value: Square
