@@ -22,9 +22,10 @@ public class Pacer : MonoBehaviour
 
         Vector3 pacerPosition = Camera.main.WorldToScreenPoint(transform.position);
 
-        if(pacerPosition.x > Screen.width || pacerPosition.x < 0)
+        if (pacerPosition.x > Screen.width || pacerPosition.x < 0)
         {
             direction *= -1f;
         }
     }
 }
+

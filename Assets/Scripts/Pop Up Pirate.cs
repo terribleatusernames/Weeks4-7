@@ -6,11 +6,14 @@ using UnityEditor;
 
 public class PopUpPirate : MonoBehaviour
 {
-     public List<GameObject> knives = new List<GameObject>();
-     public GameObject knifeToSpawn; 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public List<GameObject> knives = new List<GameObject>();
+    public GameObject knifeToSpawn;
+    public GameObject barreltToSpawn;
+    public GameObject knife;
+
     void Start()
     {
+        GameObject spawnedBarrel = Instantiate(barreltToSpawn, new Vector3(0f, 0f, -1f), Quaternion.identity);
 
         for (int i = 0; i < 5; i++)
         {
@@ -25,11 +28,22 @@ public class PopUpPirate : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        
+        KnifeClick currentKnife = knife.GetComponent<KnifeClick>();
+        for (int i = 0; i < knives.Count; i++)
+        {
+            if (knives[i] == currentKnife.isClicked)
+            {
+                knives.Remove(knives[i]);
+                Debug.Log("Knife removed");
+            }
+        }
+
+
     }
+
 }
 
 
