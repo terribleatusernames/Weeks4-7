@@ -43,6 +43,6 @@ public class OnClickDestroy : MonoBehaviour
 
     public void LifeCount()
     {
-            lifeCounter.text = life.ToString();
+            lifeCounter.text = "test" + life.ToString();
     }
 }

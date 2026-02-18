@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: da58482f37cf46446bc382ab17e16a46
+guid: dbb795e5c1c259a4baf5f0351e38ad9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8387546911266712685
-    second: Menu Ui_0
+      213: -5655702698450644524
+    second: Vengeance Mark Base_0
+  - first:
+      213: 5018255224395484261
+    second: Vengeance Mark Base_1
+  - first:
+      213: -6391514102125431240
+    second: Vengeance Mark Base_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +132,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu Ui_0
+      name: Vengeance Mark Base_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 9
-      pivot: {x: 0.5472678, y: 0.4942579}
+        x: 948
+        y: 1493
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 393d509f582799b80800000000000000
-      internalID: -8387546911266712685
+      spriteID: 4d191a76c58e281b0800000000000000
+      internalID: -5655702698450644524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengeance Mark Base_1
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1470
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c475ae98c64a540800000000000000
+      internalID: 5018255224395484261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengeance Mark Base_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 18
+        width: 1017
+        height: 1452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836f9eda9c7cc47a0800000000000000
+      internalID: -6391514102125431240
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 797087ff97801b140b59a5606db63c1a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Menu Ui_0: -8387546911266712685
+      Vengeance Mark Base_0: -5655702698450644524
+      Vengeance Mark Base_1: 5018255224395484261
+      Vengeance Mark Base_2: -6391514102125431240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
